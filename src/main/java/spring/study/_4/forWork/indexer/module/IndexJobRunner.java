@@ -129,9 +129,12 @@ public class IndexJobRunner implements Runnable {
                                 Map<String, Object> result = new HashMap<>();
                                 result.put("groupSeq", groupSeqNumber);
                                 result.put("result","procedureCall");
+                                return result;
                             }
                         };
                     }
+
+
                 }
             }
         }

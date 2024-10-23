@@ -1,0 +1,14 @@
+[
+  {
+    "groupSeq": 1,
+    "categoryCode": [101, 102, 103]
+  },
+  {
+    "groupSeq": 2,
+    "categoryCode": [201, 202, 203]
+  },
+  {
+    "groupSeq": 3,
+    "categoryCode": [301, 302]
+  }
+]
