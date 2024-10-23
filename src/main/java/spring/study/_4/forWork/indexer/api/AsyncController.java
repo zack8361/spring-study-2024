@@ -27,11 +27,10 @@ public class AsyncController {
     private final IndexJobManager indexJobManager;
 
 
-
     @PostMapping(value = "/start")
     public ResponseEntity<?> doStart(@RequestBody Map<String, Object> payload) {
         Job job = indexJobManager.start(ACTION.FULL_INDEX.name(), payload);
-
+        System.out.println("job = " + job);
         return ResponseEntity.ok(OK);
     }
 }
